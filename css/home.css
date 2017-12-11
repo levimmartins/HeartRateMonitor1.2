@@ -16,7 +16,20 @@ and open the template in the editor.
     
 }
 
+.body_atualizado--home{
+    background-color: #d9ead3c4;
+    margin-top: 2%;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+ 
+
+.carousel-caption_home{
+    color: #28a745 !important;
+}
+
 .navbar_atualizada{
-    background-color: #84b59fff;
+    background-color: #218838;
 }
 
