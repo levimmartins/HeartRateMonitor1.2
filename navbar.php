@@ -13,13 +13,13 @@
             <a class="nav-link" href="#">Quadro de Pontos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Conquistas</a>
+            <a class="nav-link" href="conquistas.php">Conquistas</a>
           </li>       
         
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li>
-                <a class="nav-link" href="#">UserName</a>
+                <a class="nav-link" href="profile.php">UserName</a>
             </li>
             <li>
                 <a class="nav-link" href="#">Sair</a>

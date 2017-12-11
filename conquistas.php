@@ -4,6 +4,7 @@
     <meta charset="UTF-8"/>
     <title>Coquistas</title>
     <link rel="stylesheet" href="css/home.css"/>
+    <link rel="stylesheet" href="css/pontos.css"/>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
 </head>
 
@@ -15,7 +16,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col">
-                        <img src="img/1.png" width="90%"/>
+                        <img src="img/1.png" width="90%" />
                     </div>   
                     <div class="col">
                         <img src="img/2.png" width="90%"/>
@@ -32,13 +33,13 @@
                         <img src="img/5.png" width="90%"/>
                     </div>   
                     <div class="col">
-                        <img src="img/6.png" width="90%"/>
+                        <img class="naoConquistado" src="img/6.png" width="90%"/>
                     </div>   
                     <div class="col">
-                        <img src="img/7.png" width="90%"/>
+                        <img class="naoConquistado" src="img/7.png" width="90%"/>
                     </div>   
                     <div class="col">
-                        <img src="img/8.png" width="90%"/>
+                        <img class="naoConquistado" src="img/8.png" width="90%"/>
                     </div>   
                 </div>
             </div>
