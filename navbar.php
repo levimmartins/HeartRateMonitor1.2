@@ -14,7 +14,16 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Conquistas</a>
-          </li>
+          </li>       
+        
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a class="nav-link" href="#">UserName</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#">Sair</a>
+            </li>
         </ul>
        <!-- <form class="form-inline mt-2 mt-md-0">
           <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
