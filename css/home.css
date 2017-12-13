@@ -23,6 +23,15 @@ and open the template in the editor.
     
 }
 
+
+.body_atualizado--home--login{
+    background-color: #93c47dff;
+    margin-top: 2%;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+
  
 
 .carousel-caption_home{
@@ -32,4 +41,5 @@ and open the template in the editor.
 .navbar_atualizada{
     background-color: #218838;
 }
+
 
