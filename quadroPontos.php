@@ -1,6 +1,6 @@
 <?php
     session_start(); 
-
+    include("connection/connection.php")
 ?>
 
 <!DOCTYPE html>
@@ -11,7 +11,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="css/home.css"/>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
-</head>
+</head>  
 
     <body class="body_atualizado--home">
         
@@ -26,21 +26,26 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                     <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                  </tr>
-                  <tr>
-                     <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                  </tr>
-                  <tr>
-                     <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
-                  </tr>
+                    <?php 
+                        $idUser =  $_SESSION['idUser'];
+                        $querySelecao = "SELECT *FROM hrmDB.pontos WHERE user_idUser = ".$idUser." ";
+                        $resultado = mysqli_query($conn, $querySelecao); 
+                        
+                        
+                        while($pontos = mysqli_fetch_object($resultado)){
+                            ?>
+                                    <tr>
+                                       <td><?php echo $pontos->ponto; ?></td>
+                                       <td><?php echo $pontos->descAtividade; ?></td>                  
+                                    </tr>     
+                        <?php 
+                        
+                        }
+                        ?>
+                    
+                     
+                  
+                  
                 </tbody>
           </table>
         </div>
