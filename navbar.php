@@ -15,9 +15,9 @@
                     
                 $nome = $_SESSION['nome'];    
 ?> 
-               <!-- <li class="nav-item">
-                  <a class="nav-link" href="#">Quadro de Pontos</a>
-                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="quadroPontos.php">Quadro de Pontos</a>
+                </li> 
                 <li class="nav-item">
                   <a class="nav-link" href="conquistas.php">Conquistas</a>
                 </li>       
