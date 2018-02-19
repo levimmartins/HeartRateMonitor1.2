@@ -81,18 +81,7 @@
                     </div>   
                     <div class="col">
                         <img class="<?php if($nivel < 4){ echo "naoConquistado"; } ?>" src="img/4.png" width="90%"/>
-
-                        <img src="img/1.png" width="90%" />
-                    </div>   
-                    <div class="col">
-                        <img src="img/2.png" width="90%"/>
-                    </div>   
-                    <div class="col">
-                        <img src="img/3.png" width="90%"/>
-                    </div>   
-                    <div class="col">
-                        <img src="img/4.png" width="90%"/>
-                     </div>   
+  
                 </div>
                  <div class="row">
                     <div class="col">
@@ -106,17 +95,8 @@
                     </div>   
                     <div class="col">
                         <img class="<?php if($nivel < 8){ echo "naoConquistado"; } ?>" src="img/8.png" width="90%"/>
-                        <img src="img/5.png" width="90%"/>
-                    </div>   
-                    <div class="col">
-                        <img class="naoConquistado" src="img/6.png" width="90%"/>
-                    </div>   
-                    <div class="col">
-                        <img class="naoConquistado" src="img/7.png" width="90%"/>
-                    </div>   
-                    <div class="col">
-                        <img class="naoConquistado" src="img/8.png" width="90%"/>
                      </div>   
+                     
                 </div>
             </div>
         </div>    

@@ -17,8 +17,7 @@
         
     <?php include 'navbar.php'?>    
         <div class="jumbotron">
-<<<<<<< HEAD
-            <div class="container-fluid" align="center">
+             <div class="container-fluid" align="center">
                 <div class="row">
                     <div class="col">
                         <fieldset>
@@ -34,39 +33,6 @@
                     </div>
                 </div>
             </div>
-=======
-            <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col">Data</th>
-                    <th scope="col">Atividade</th>
-                    <th scope="col">Pontuação</th>
-                  </tr>
-                </thead>
-                <tbody>
-                    <?php 
-                        $idUser =  $_SESSION['idUser'];
-                        $querySelecao = "SELECT *FROM hrmDB.pontos WHERE user_idUser = ".$idUser." ";
-                        $resultado = mysqli_query($conn, $querySelecao); 
-                        
-                        
-                        while($pontos = mysqli_fetch_object($resultado)){
-                            ?>
-                                    <tr>
-                                       <td><?php echo $pontos->ponto; ?></td>
-                                       <td><?php echo $pontos->descAtividade; ?></td>                  
-                                    </tr>     
-                        <?php 
-                        
-                        }
-                        ?>
-                    
-                     
-                  
-                  
-                </tbody>
-          </table>
->>>>>>> fcbf26b08839a8d94c2ac2efaa1781c4f774ef67
         </div>
     </body>
 </html>

@@ -84,22 +84,15 @@
                 }
                 
     ?>    
-<<<<<<< HEAD
         <div class="container" style="padding-bottom: 15px; margin-top: -42px;">
             <div class="jumbotron_profile" style="border-radius: 8px;   padding-left: 47px; padding-right: 34px; padding-bottom: 11px; padding-top: 16px;">
                         <div class="row">
                             <div class="col-5">
-=======
-        <div class="container">
-            <div class="jumbotron_profile">
-                        <div class="row">
-                            <div class="col-2">
->>>>>>> fcbf26b08839a8d94c2ac2efaa1781c4f774ef67
+
                                 <p class="p_profile">Nome: <?php echo $nome; ?> </p>
                             </div>          
                         </div>
                         <div class="row">
-<<<<<<< HEAD
                               <div class="col-3">
                                   <p class="p_profile">Idade: <?php echo $age; ?> </p>
                               </div>
@@ -107,15 +100,7 @@
                               <div class="col">
                                 <img class="img_profile" src="img/woman.png" />
                              </div>
-=======
-                              <div class="col-2">
-                                  <p class="p_profile">Idade: <?php echo $age; ?> </p>
-                            </div>
 
-                              <div class="col">
-                                <img class="img_profile" src="img/woman.png" />
-                            </div>
->>>>>>> fcbf26b08839a8d94c2ac2efaa1781c4f774ef67
                         </div>
                         <div class="row">
                             <div class="col"><p class="p_profile">Nível: <?php echo $nivel; ?></p></div>  
