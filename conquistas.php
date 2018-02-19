@@ -1,5 +1,6 @@
 <?php
     session_start();
+<<<<<<< HEAD
 
     include("connection/connection.php");
         
@@ -51,6 +52,8 @@
              
  
     
+=======
+>>>>>>> fcbf26b08839a8d94c2ac2efaa1781c4f774ef67
 ?>
 <!DOCTYPE html>
 <html>
@@ -70,6 +73,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col">
+<<<<<<< HEAD
                         
                         <img class="<?php if($nivel < 1){ echo "naoConquistado"; } ?>" src="img/1.png" width="90%" />
                     </div>   
@@ -81,10 +85,23 @@
                     </div>   
                     <div class="col">
                         <img class="<?php if($nivel < 4){ echo "naoConquistado"; } ?>" src="img/4.png" width="90%"/>
+=======
+                        <img src="img/1.png" width="90%" />
+                    </div>   
+                    <div class="col">
+                        <img src="img/2.png" width="90%"/>
+                    </div>   
+                    <div class="col">
+                        <img src="img/3.png" width="90%"/>
+                    </div>   
+                    <div class="col">
+                        <img src="img/4.png" width="90%"/>
+>>>>>>> fcbf26b08839a8d94c2ac2efaa1781c4f774ef67
                     </div>   
                 </div>
                  <div class="row">
                     <div class="col">
+<<<<<<< HEAD
                         <img  class="<?php if($nivel < 5){ echo "naoConquistado"; } ?>" src="img/5.png" width="90%"/>
                     </div>   
                     <div class="col">
@@ -95,6 +112,18 @@
                     </div>   
                     <div class="col">
                         <img class="<?php if($nivel < 8){ echo "naoConquistado"; } ?>" src="img/8.png" width="90%"/>
+=======
+                        <img src="img/5.png" width="90%"/>
+                    </div>   
+                    <div class="col">
+                        <img class="naoConquistado" src="img/6.png" width="90%"/>
+                    </div>   
+                    <div class="col">
+                        <img class="naoConquistado" src="img/7.png" width="90%"/>
+                    </div>   
+                    <div class="col">
+                        <img class="naoConquistado" src="img/8.png" width="90%"/>
+>>>>>>> fcbf26b08839a8d94c2ac2efaa1781c4f774ef67
                     </div>   
                 </div>
             </div>
@@ -104,5 +133,9 @@
         
         
     </body>
+<<<<<<< HEAD
 </html>
 
+=======
+</html>
+>>>>>>> fcbf26b08839a8d94c2ac2efaa1781c4f774ef67
