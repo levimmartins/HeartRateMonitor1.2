@@ -1,0 +1,21 @@
+
+
+.jumbotron_profile{
+    background-color: #c8d9c2;
+    
+}
+.img_profile{
+    width: 36%;
+    height: auto;
+    position: relative;
+    left: 21%;
+}
+
+.progress_pontuacao{
+    background-color: #b6d7a8ff;
+    height: 4rem !important;
+}
+
+.p_profile{
+    font-size: 29pt;
+}

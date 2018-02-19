@@ -1,6 +1,6 @@
 <?php
     session_start(); 
-
+    include("connection/connection.php")
 ?>
 
 <!DOCTYPE html>
@@ -11,38 +11,28 @@
     <title>Home</title>
     <link rel="stylesheet" href="css/home.css"/>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
-</head>
+</head>  
 
     <body class="body_atualizado--home">
         
     <?php include 'navbar.php'?>    
         <div class="jumbotron">
-            <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col">Data</th>
-                    <th scope="col">Atividade</th>
-                    <th scope="col">Pontuação</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                     <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                  </tr>
-                  <tr>
-                     <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                  </tr>
-                  <tr>
-                     <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
-                  </tr>
-                </tbody>
-          </table>
+            <div class="container-fluid" align="center">
+                <div class="row">
+                    <div class="col">
+                        <fieldset>
+                             <img class="img-fluid" src="getGraph.php" alt="Pontuação por categoria" title="Pontuação por categoria" />
+                         </fieldset>  
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col" style="padding-top: 25px;">
+                    <fieldset>
+                         <img  class="img-fluid" src="getGraph2.php" alt="Taxa de Monitoramento de Cardíaco por dia" title="Taxa de Monitoramento de Cardíaco por dia" />
+                     </fieldset>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
